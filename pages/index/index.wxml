@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="page-body">
+  <input class="weui-input" auto-focus placeholder="请输入要查询的食物"/>
+  <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="primary"> 查 询         </button>
+</view>
+
